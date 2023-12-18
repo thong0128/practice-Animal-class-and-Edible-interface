@@ -15,7 +15,7 @@ public class AbstractAndInterfaceTests {
 
             if (animal instanceof Chicken) {
                 Edible edibler = (Chicken) animal;
-                System.out.println(edibler.howtoEat());
+                System.out.println(edibler.howToEat());
             }
         }
 
@@ -23,7 +23,7 @@ public class AbstractAndInterfaceTests {
         fruits[0] = new Orange();
         fruits[1] = new Apple();
         for (Fruit fruit : fruits) {
-            System.out.println(fruit.howtoEat());
+            System.out.println(fruit.howToEat());
         }
     }
 }

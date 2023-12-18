@@ -2,7 +2,7 @@ package fruit;
 
 public class Apple extends Fruit{
     @Override
-    public String howtoEat() {
+    public String howToEat() {
         return "Apple could be slided";
     }
 }

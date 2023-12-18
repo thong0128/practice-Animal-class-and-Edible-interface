@@ -9,7 +9,7 @@ public class Chicken extends Animal implements Edible {
     }
 
     @Override
-    public String howtoEat() {
+    public String howToEat() {
         return "could be fried";
     }
 }
